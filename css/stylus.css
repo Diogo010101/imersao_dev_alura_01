@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  
+  background-color: rgb(255, 189, 140);
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 20vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.img_menino{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.img_menino img{
+  width: 200px;
+  height: auto;
+}
+
+.legenda_foto_escola{
+  color: rgb(255, 255, 255);
+  font-size: calc(0.5em + 0.5vw);
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 5px black ;
+  padding: 5px;
+  background-color: #ff8838;
+  text-align: center;
+}
+ 
+
+
+/**Conteúdo de input**/
+.flex_notas_box{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.flex-item{
+  margin-bottom: 5px;
+}
+
+.botao_flex{  
+    margin-top: 20px;
+}
+
+.botao_flex input{
+    padding: 5px 10px;
+    background-color: rgb(140, 186, 255);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    font-size: 15px;
+    border: none;
+    border: solid 1px black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.resultado_media{
+    
+    font-size: 20pt;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+/**Fim Conteúdo de input**/

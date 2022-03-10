@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculadora de Média</title>
+    <link rel="stylesheet" href="css/stylus.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média</h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt="">
+            
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+
+    <figure class="img_menino flex-container">
+        <img src="https://static.wixstatic.com/media/fd49f1_245aa411f36f4d488b1ba77272a0d3e2~mv2_d_1723_1553_s_2.png/v1/fill/w_360,h_324,al_c,q_85,usm_0.66_1.00_0.01/aluno.webp" alt="Estudante Menino" class="flex-item">
+        <figcaption class="legenda_foto_escola"><h1>Escola Geração Dev</h1></figcaption>
+    </figure>
+
+    <form class=" flex-container flex_notas_box">
+        <div class="flex-item col-1">
+            <label for="nome">Nome </label>
+            <input type="text" name="nome" id="nome_aluno" placeholder="Ex. Maisa Coelho"  maxlength="16">
+        </div>
+
+        <div class="flex-item">
+            <label for="nota_1">Nota 1º Bimestre </label>
+            <input type="number" name="nota_01" id="nota_1" min="0" max="10" placeholder="ex: 10">
+        </div>
+        
+        <div class="flex-item">
+            <label for="nota_2">Nota 2º Bimestre </label>
+            <input type="number" name="nota_02" id="nota_2" min="0" max="10" placeholder="ex: 7">
+        </div>
+        
+
+        <div class="flex-item">
+            <label for="nota_3">Nota 3º Bimestre </label>
+            <input type="number" name="nota_03" id="nota_3" min="0" max="10" placeholder="ex: 5.7">
+        </div>
+        
+
+        <div class="flex-item">
+            <label for="nota_4">Nota 4º Bimestre </label>
+            <input type="number" name="nota_04" id="nota_4" min="0" max="10" placeholder="ex: 8.9">
+        </div>
+        
+
+        <div class="flex-item botao_flex">
+            <input type="button" value="Cálcular" id="botao_media">
+        </div>
+        
+        <br><br>
+        <div class="flex-item resultado_media" id="resultado"></div>
+        <div class="flex-item resultado_media" id="aprovacao"></div>
+    </form>
+    
+</body>
+</html>
+
+  
+</script>
